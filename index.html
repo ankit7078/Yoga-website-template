@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BookYogaRetreats</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tempusdominus-bootstrap-4@5.1.1/build/css/tempusdominus-bootstrap-4.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand green" href="#"><b> BookYogaRetreats</b></a>
+        <button
+          class="navbar-toggler green"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active"
+                href="#"
+                id="retreatsDropdown"
+                role="button"
+              >
+                Destinations
+              </a>
+              <ul
+                class="dropdown-menu Destinations"
+                aria-labelledby="retreatsDropdown"
+              >
+                <div class="nav-africa">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Africa <span>&</span> the Middle East</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Asia <span>&</span> Oceania</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Europe</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >The Americas <span>&</span> Caribbean</a
+                    >
+                  </li>
+                </div>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Type of Retreat</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Yoga Styles</a
+              >
+            </li>
+          </ul>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            width="24"
+            fill="none"
+            class="icon"
+          >
+            <path
+              stroke-width="2"
+              d="M12 1v22M1 12h22M12 23c3.038 0 5.5-4.925 5.5-11S15.038 1 12 1 6.5 5.925 6.5 12 8.962 23 12 23z"
+              stroke-linecap="round"
+              stroke="#02BF9B"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+            ></path>
+            <path
+              stroke-width="2"
+              d="M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11z"
+              stroke-linecap="round"
+              stroke="#02BF9B"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+            ></path>
+          </svg>
+          <p class="pt-3 green mx-3 eninr icon"><b> EN . INR</b></p>
+          <b> <i class="bi bi-heart fs-4 green mx-2 icon"></i> </b>
+          <b> <i class="bi bi-person fs-2 green mx-3 icon"></i> </b>
+          <form class="d-flex" role="search">
+            <button
+              class="btn btn-dark signup bggreen px-3 py-2 me-5"
+              type="submit"
+            >
+              <b> Sign up</b>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+      <!-- hero section -->
+      <section class="hero-section">
+        <video muted loop autoplay playsinline>
+          <source src="https://statics.tpn.to/hero/video/byr_1440.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+        <div class="hero-overlay">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div >
+                <h1 class="hero-content container">
+                  <b>Enrich your life with an unforgettable yoga retreat</b>
+                </h1>
+                <p class="fs-6 container">
+                  Book yoga retreats, holidays and courses from 2652 organizers
+                  worldwide
+                </p>
+                <div class="input-group mb-5 text-secondary container ">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text">@</span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Try 'Bali' or 'Vinyasa yoga'"
+                      aria-label="Try"
+                    />
+                    <input
+                      type="text"
+                      class="form-control p-3"
+                      placeholder="DURATION & ARRIVAL"
+                      aria-label="Duration and Arrival"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- filters -->
+      <section class="mt-5 filter container">
+        <div class="row">
+          <div class="col-md-3 fs-5 filter-left">
+            <b>Filters</b>
+            <div>
+              <p class="mt-5 fs-6">DEALS</p>
+              <input type="checkbox" class="text-success" /><span
+                style="font-size: 74%"
+                class="ms-2"
+              >
+                Best deals<span class="text-secondary"> (784)</span></span
+              >
+            </div>
+            <div>
+              <p class="mt-5 fs-6">TRAVEL / ONLINE</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2">
+                Online experiences
+                <span class="text-secondary"> (236)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2">
+                Travel experiences
+                <span class="text-secondary"> (7396)</span></span
+              >
+            </div>
+            <div>
+              <p class="mt-5 fs-6">DESTINATIONS</p>
+              <div class="accordion accordion-flush" id="accordionDestinations">
+                <div class="accordion-item border-0">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseAsia"
+                      aria-expanded="false"
+                      aria-controls="collapseAsia"
+                    >
+                      Asia <span>&</span> Oceania
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseAsia"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionDestinations"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-unstyled ps-3">
+                        <li>India</li>
+                        <li>Japan</li>
+                        <li>Australia</li>
+                        <li>New Zealand</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item border-0">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseEurope"
+                      aria-expanded="false"
+                      aria-controls="collapseEurope"
+                    >
+                      Europe
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseEurope"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionDestinations"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-unstyled ps-3">
+                        <li>France</li>
+                        <li>Germany</li>
+                        <li>Italy</li>
+                        <li>Spain</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseAmericas"
+                      aria-expanded="false"
+                      aria-controls="collapseAmericas"
+                    >
+                      The Americas <span>&</span> Caribbean
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseAmericas"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionDestinations"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-unstyled ps-3">
+                        <li>USA</li>
+                        <li>Brazil</li>
+                        <li>Mexico</li>
+                        <li>Caribbean Islands</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseAfrica"
+                      aria-expanded="false"
+                      aria-controls="collapseAfrica"
+                    >
+                      Africa <span>&</span> the Middle East
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseAfrica"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionDestinations"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-unstyled ps-3">
+                        <li>South Africa</li>
+                        <li>Egypt</li>
+                        <li>UAE</li>
+                        <li>Morocco</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="mt-5 fs-6">ARRIVAL DATE</p>
+              <input type="radio" /><span style="font-size: 74%" class="ms-2"
+                >2025 February<span class="text-secondary"> (3031)</span></span
+              >
+              <br />
+              <input type="radio" /><span style="font-size: 74%" class="ms-2"
+                >2025 March<span class="text-secondary"> (4300)</span></span
+              >
+              <br />
+              <input type="radio" /><span style="font-size: 74%" class="ms-2"
+                >2025 April<span class="text-secondary"> (4221)</span></span
+              >
+              <br />
+              <input type="radio" /><span style="font-size: 74%" class="ms-2"
+                >2025 May<span class="text-secondary"> (4153)</span></span
+              >
+              <br />
+              <input type="radio" /><span style="font-size: 74%" class="ms-2"
+                >2025 June<span class="text-secondary"> (3788)</span></span
+              >
+            </div>
+            <div>
+              <p class="mt-5 fs-6">DURATION</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >2 days<span class="text-secondary"> (88)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >From 3 to 7 days<span class="text-secondary"> (4399)</span></span
+              ><br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >From 1 to 2 weeks<span class="text-secondary">
+                  (2863)</span
+                ></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >More than 2 weeks
+                <span class="text-secondary"> (1369)</span></span
+              >
+            </div>
+            <div>
+              <p class="mt-5 fs-6">PRICE PER TRIP</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >Below Rs. <b>20000</b
+                ><span class="text-secondary"> (245)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >From Rs. <b>20000</b>to Rs. <b>50000</b
+                ><span class="text-secondary"> (1524)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >From Rs. <b>50000</b> to Rs. <b>80000</b
+                ><span class="text-secondary"> (1686)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2">
+                From Rs. <b>80000</b>to Rs. <b>150000 </b
+                ><span class="text-secondary"> (2179)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2">
+                From Rs. <b>150000</b> to <rs class="b">300000</rs
+                ><span class="text-secondary"> (1520)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >More than Rs. <b>300000</b
+                ><span class="text-secondary"> (478)</span></span
+              >
+              <br />
+            </div>
+            <div>
+              <p class="mt-5 fs-6">AIRPORT TRANSFER</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >Airport transfer include<span class="text-secondary">
+                  (2058)</span
+                ></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >Airport transfer available<span class="text-secondary">
+                  (2581)</span
+                ></span
+              >
+              <br />
+            </div>
+            <div>
+              <p class="mt-5 fs-6">LANGUAGE OF INSTRUCTION</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >English<span class="text-secondary"> (6233)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >German<span class="text-secondary"> (597)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >French<span class="text-secondary"> (466)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >Dutch<span class="text-secondary"> (156)</span></span
+              >
+              <br />
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >Spanish<span class="text-secondary"> (180)</span></span
+              >
+              <br />
+            </div>
+            <div>
+              <p class="mt-5 fs-6">PRIVATE</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2"
+                >Private retreats</span
+              ><span class="text-secondary"> (784)</span> <br />
+            </div>
+            <div>
+              <p class="mt-5 fs-6">CATEGORIES</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2">
+                Best deals<span class="text-secondary"> (784)</span></span
+              >
+            </div>
+            <div>
+              <p class="mt-5 fs-6">STYLES</p>
+              <input type="checkbox" /><span style="font-size: 74%" class="ms-2">
+                Best deals<span class="text-secondary"> (784)</span></span
+              >
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-6 fs-5 showing "><b>Showing 500+ results</b></div>
+              <div class="col-md-6 filter-left">
+                <div class="row">
+                  <div class="col-md-4">
+                    <p class="Sort"><b> Sort by</b></p>
+                  </div>
+                  <div class="col-md-8">
+                    <select
+                      class="form-select form-select-sm p-3"
+                      aria-label="Small select example"
+                    >
+                      <option selected>Recommended</option>
+                      <option value="1">Popularity</option>
+                      <option value="2">Duration short to long</option>
+                      <option value="3">Price low to high</option>
+                      <option value="4">Price high to low</option>
+                      <option value="5">Price per day low to high</option>
+                      <option value="6">Price per day high to low</option>
+                      <option value="7">Review score</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <!-- images -->
+              <div class="card mb-4 mt-4 filter-images ">
+                <a href="./detailpage.html" class="text-decoration-none">
+                  <div class="row ">
+                    <div class="col-md-4 p-0 ">
+                      <img
+                        src="./images/self-paced0.webp"
+                        class="img-fluid rounded-start h-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body container ">
+                        <p class="text-secondary"><b> online Experience</b></p>
+                        <h5 class="card-title text-dark">
+                          <b class=""
+                            >7 Day Online Traditional Kundalini Yoga Course From
+                            Namaste Yoga School in Rishikesh</b
+                          >
+                        </h5>
+                        <p class="card-text text-secondary">
+                          Instructed in English
+                        </p>
+                        <div class="row d-flex text-secondary">
+                          <div class="col-md-6">
+                            <i class="bi bi-person-lines-fill"></i>
+                            <span class="ms-2">1person</span>
+                            <p mb-0>
+                              <i class="bi bi-calendar-check"></i>
+                              <span> 7 days Multiple startin dates</span>
+                            </p>
+                          </div>
+                          <div class="col-md-6 mb-4 ps-5  filter-rupe">
+                            <p class="p-0 m-0 ps-5">
+                              From
+                              <span
+                                class="text-decoration-line-through text-danger"
+                                ><span class="text-secondary">Rs. 875</span>
+                              </span>
+                            </p>
+                            <h4 class="text-danger ps-5">Rs. 856</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                >
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced01.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> INDONESIA</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >2 Day Yoga Holiday at Serenity Eco Guesthouse in
+                          Canggu, Bali, Indonesia</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Airport transfer available
+                        <span>Instructed in English</span>
+                        <span>Vegetarian friendly</span>
+                      </p>
+                      <div class="row d-flex text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi bi-person-lines-fill"></i>
+                          <span >1person</span>
+                          <p>
+                            <i class="bi bi-calendar-check"></i>
+                            <span> 2 Available all year</span>
+                          </p>
+                        </div >
+                        <div class="col-md-6 filter-rupe2 ">
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            1,770
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/Self-Paced.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b>Self-Paced 50-Hour Online Yoga Teacher Training</b>
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row d-flex text-secondary">
+                        <div  class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span >1person</span>
+                          <p >
+                          <i class="bi-calendar-check"></i>
+                            <span> 5 days Multiple startin dates</span>
+                          </p>
+                        </div >
+                        <div class="col-md-6 filter-rupe2 ">
+                          <h4 class="mt-0  text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,188
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images"> 
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced1.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >Self-Paced Online 10 Day Yoga Nidra and Ayurveda
+                          Course</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row d-flex text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi bi-person-lines-fill"></i>
+                          <span >1person</span>
+                          <p>
+                            <i class="bi bi-calendar-check"></i>
+                            <span> 10 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2">
+                          <h4 class="mt-0 text-black ps-5 ms-4  ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced2.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day 7-Hour Online Ashtanga Vinyasa Dynamic Yoga Flow
+                          Workshop</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row d-flex text-secondary">
+                        <div class="col-md-6" >
+                          <i class="bi bi-person-lines-fill"></i>
+                          <span >1person</span>
+                          <p>
+                            <i class="bi bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/slef-paced3.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day Online Traditional Kundalini Yoga Course From
+                          Namaste Yoga School in Rishikesh</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row d-flex text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span >1person</span>
+                          <p>
+                            <i class="bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced4.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day Online Traditional Kundalini Yoga Course From
+                          Namaste Yoga School in Rishikesh</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span class="ms-2">1person</span>
+    
+                          <p mb-0>
+                            <i class="bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced5.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day Online Traditional Kundalini Yoga Course From
+                          Namaste Yoga School in Rishikesh</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span class="ms-2">1person</span>
+    
+                          <p>
+                            <i class="bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced6.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day Online Traditional Kundalini Yoga Course From
+                          Namaste Yoga School in Rishikesh</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span class="ms-2">1person</span>
+    
+                          <p >
+                            <i class="bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced7.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day Online Traditional Kundalini Yoga Course From
+                          Namaste Yoga School in Rishikesh</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span class="ms-2">1person</span>
+    
+                          <p mb-0>
+                            <i class="bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced8.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day Online Traditional Kundalini Yoga Course From
+                          Namaste Yoga School in Rishikesh</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span class="ms-2">1person</span>
+    
+                          <p mb-0>
+                            <i class="bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card mb-4 mt-4 filter-images">
+                <div class="row">
+                  <div class="col-md-4 p-0">
+                    <img
+                      src="./images/self-paced9.webp"
+                      class="img-fluid rounded-start h-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-secondary"><b> online Experience</b></p>
+                      <h5 class="card-title">
+                        <b
+                          >7 Day Online Traditional Kundalini Yoga Course From
+                          Namaste Yoga School in Rishikesh</b
+                        >
+                      </h5>
+                      <p class="card-text text-secondary">
+                        Instructed in English
+                      </p>
+                      <div class="row text-secondary">
+                        <div class="col-md-6">
+                          <i class="bi-person-lines-fill"></i>
+                          <span class="ms-2">1person</span>
+                          <p>
+                            <i class="bi-calendar-check"></i>
+                            <span> 7 days Multiple startin dates</span>
+                          </p>
+                        </div>
+                        <div class="col-md-6 filter-rupe2" >
+                          <h4 class="mt-0 text-black ps-5 ms-4 ">
+                            <span class="text-secondary fs-6">From</span> Rs.
+                            2,625
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="w-100" />
+      <!-- gift -->
+      <section class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./images/gift-card-landing.png" width="100%" alt="" />
+          </div>
+          <div class="col-md-6 mades">
+            <div class="gift">
+              <i class="bi bi-gift fs-1 green mx-2"></i>
+            </div>
+            <h3 class="fs-2 mt-2">Gift Card: Great for all occasions</h3>
+            <p>
+              A Tripaneer gift card is the perfect present for anyone interested
+              in wellness, culture, and adventure. For any journey, near or far,
+              choose between 17,500 experiences worldwide.
+            </p>
+            <button class="btn btn-success fs-5 py-2 px-5">
+              Buy a gift card
+            </button>
+          </div>
+        </div>
+      </section>
+    
+      <!-- travelers -->
+      <section class="travelers rfz pb-5">
+        <div class="container">
+          <div class="row over pt-5 pb-3">
+            <div class="col-md-2 ps-5 pe-0 pt-2 icon-travelers">
+              <i class="bi bi-chat-left-text-fill display-1 green mx-2 travelers-icon"></i>
+            </div>
+            <div class="col-md-10 ms-0">
+              <h2 class="fs-2">
+                <b> Travelers love us, and the feeling is mutual</b>
+              </h2>
+              <p>
+                Over 250k travelers like you have chosen Tripaneer so far. Hear
+                what they have to say about us!
+              </p>
+            </div>
+          </div>
+    
+          <div class="row pt-1 pb-4">
+            <div class="col-md-4">
+              <div class=" d-flex justify-content-start  over">
+                <div class="">
+                  <i class="bi bi-person display-6  mx-2 green "></i>
+                </div>
+                <div class="">
+                  <p class="p-0 m-0"><b> Over 280,000 trips enjoyed</b></p>
+                  <p class="p-0 m-0">through Tripaneer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex justify-content-start over">
+                <div class="">
+                  <i class="bi bi-hand-thumbs-up display-6 green mx-2"></i>
+                </div>
+                <div class="">
+                  <p class="p-0 m-0"><b>93% of our customers</b></p>
+                  <p class="p-0 m-0">recommend booking with us</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex justify-content-start w-100 over">
+                <div class="">
+                  <i class="bi bi-star display-6 green mx-2"></i>
+                </div>
+                <div class="">
+                  <p class="p-0 m-0"><b>79,000+ verified reviews</b></p>
+                  <p class="p-0 m-0">4.6 star average organizer score</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="row row-cols-1 row-cols-md-3 pb-5 g-4">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-title">
+                      “EVERYTHING! Training, atmosphere and people. What a great
+                      place to re-center oneself.”
+                    </h6>
+                    <p class="card-text float-end pe-4">— Anthony C.</p>
+                    <div class="d-flex justify-content-start w-100 mt-4">
+                      <div class="pe-2">
+                        <img src="./images/thailand.png" width="22" alt="" />
+                        <span>Thailand</span>
+                      </div>
+    
+                      <div class="ms-5 ps-5">
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-title">
+                      “There was an excellent mixture of cooking AND Tuscan
+                      ago-experiences. <br />”
+                    </h6>
+                    <p class="card-text float-end pe-4">— Monica B.</p>
+                    <div class="d-flex justify-content-start w-100 mt-4">
+                      <div class="pe-5">
+                        <img src="./images/italy.png" width="22" alt="" />
+                        <span>Italy</span>
+                      </div>
+    
+                      <div class="ms-5 ps-5">
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-title">
+                      “The place, the instructures and the environment were just
+                      perfect! <br />”
+                    </h6>
+                    <p class="card-text float-end pe-4">— Sara C.</p>
+                    <div class="d-flex justify-content-start w-100 mt-4">
+                      <div class="pe-5">
+                        <img src="./images/spain.png" width="22" alt="" />
+                        <span> Spain</span>
+                      </div>
+    
+                      <div class="ms-5 ps-5">
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                        <i
+                          class="bi bi-star-fill text-primary"
+                          width="16"
+                          height="16"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="my-0" />
+      <!-- still -->
+      <section class="still mb-5 py-5">
+        <div class="container mades">
+          <div class="row container">
+            <div class="col-md-2 message">
+              <i class="bi bi-envelope-paper display-1 text-secondary"></i>
+            </div>
+            <div class="col-md-5">
+              <h1>Still searching for that perfect trip?</h1>
+              <p class="fs-5">
+                Get weekly inspiration delivered right to your inbox!
+              </p>
+            </div>
+            <div class="col-md-5">
+              <p>Your email address</p>
+              <div class="row">
+                <div class="col-md-8">
+                  <input
+                    type="email"
+                    placeholder="name@example.com"
+                    class="w-100 p-2"
+                  />
+                </div>
+                <div class="col-md-4 Subscribe">
+                  <button type="button" class="btn btn-primary fs-5 sub">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+              <p class="para mt-2">
+                We respect your privacy. We will not publish or share your email
+                address in any way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <section class="footer container">
+        <div class="row made">
+          <div class="col-md-4">
+            <p class="text-secondary mb-0">
+              Made with
+              <span>
+                <i class="bi bi-heart-fill text-secondary"></i>
+              </span>
+              by
+            </p>
+            <img src="./images/tripaneer.png" width="54%" alt="" />
+            <h5 class="mt-3 mb-0">Who are we?</h5>
+            <p class="text-secondary">
+              We<span>'</span>re the world<span>'</span>s leading marketplace to
+              explore and book unforgettable travel experiences. We offer any type
+              of holiday you can imagine including mindful yoga retreats,
+              adventurous safaris, epic surf camps, and more.
+            </p>
+            <h5>Why choose us?</h5>
+            <p class="text-secondary">
+              We love to travel and we want to share our excitement with you.
+              We<span>'</span>re passionate about connecting you with local
+              organizers to enrich your life with unforgettable trips.
+            </p>
+            <h5>Connect with us</h5>
+            <div class="d-flex gap-3">
+              <div class="">
+                <i class="bi bi-facebook text-secondary"></i>
+              </div>
+              <div class="">
+                <i class="bi bi-youtube text-secondary"></i>
+              </div>
+              <div class="">
+                <i class="bi bi-instagram text-secondary"></i>
+              </div>
+              <div class="">
+                <i class="bi bi-music-note-beamed text-secondary"></i>
+              </div>
+            </div>
+            <p class="mb-5 mt-4 text-secondary">
+              Copyright © 2025 Tripaneer. <br />
+              All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-2 text-secondary tripaneer">
+            <h5 class="text-black mb-3">Tripaneer</h5>
+            <a href="./contact.html" class="text-decoration-none"
+              ><p class="text-secondary contact">Contact Us</p></a
+            >
+            <a href="./about.html" class="text-decoration-none"
+              ><p class="text-secondary contact">About us</p></a
+            >
+    
+            <p>Gift cards</p>
+            <p>Group travel</p>
+            <p>Become a Partner</p>
+            <p>Join the Affiliate Program</p>
+            <p>Site Map</p>
+            <p>Careers</p>
+    
+            <p>Customer Care</p>
+            <p>Terms and Privacy</p>
+            <p>Privacy Settings</p>
+          </div>
+          <div class="col-md-3 text-secondary tripaneer">
+            <h5 class="text-black mb-3">Our Other Themes</h5>
+            <p>Tripaneer</p>
+            <p>BookSurfCamps</p>
+            <p>BookHorseRidingHolidays</p>
+            <p>BookYogaTeacherTraining</p>
+            <p>BookAllSafaris</p>
+          </div>
+          <div class="col-md-3 text-secondary tripaneer">
+            <h5 class="text-black mb-3">Recent Blog Articles</h5>
+            <p>Affordable Yoga Teacher Training Courses</p>
+            <p>Budget Yoga Retreats in Europe [2024]</p>
+            <p>Guide to Italy Yoga Retreats</p>
+            <p>2025's Top Yoga Destinations</p>
+            <p>Top 20 Affordable Yoga Retreats [2024]</p>
+          </div>
+        </div>
+      </section>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+</html>

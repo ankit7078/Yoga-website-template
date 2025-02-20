@@ -1,0 +1,711 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {
+  font-family: "Poppins", serif;
+}
+
+.green {
+  color: #02bf9b;
+}
+
+.navbar .icon {
+  display: none;
+}
+.navbar .bggreen {
+  background-color: #02bf9b;
+  border: 2px solid #02bf9b;
+}
+.navbar .bggreen:hover {
+  background-color: rgb(111, 235, 194);
+  color: black;
+  border: 2px solid black;
+}
+
+.hero-section {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-overlay {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero-overlay .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-overlay h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+}
+
+.filter .filter-images {
+  max-width: 1100px;
+}
+
+@media only screen and (max-width: 400px) {
+  .filter-left {
+    display: none;
+  }
+  .filter-images .filter-rupe {
+    margin-left: -24%;
+  }
+  .filter-images .filter-rupe2 {
+    margin-left: -20%;
+  }
+  .travelers-icon {
+    display: none;
+    margin-top: 12%;
+  }
+}
+.contact-page {
+  background-image: url("./images/contact-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.about-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.269), rgba(0, 0, 0, 0.356)), url(./images/about-header.jpeg) no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding: 0;
+  min-height: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.about-section h1 {
+  max-width: 800px;
+  text-shadow: 1px 1px black;
+}
+.about-section p {
+  text-shadow: 1px black;
+  max-width: 800px;
+}
+
+.bgcolor {
+  background-color: #dcf8f4;
+}
+
+.lightblue {
+  color: #02a5e8;
+}
+
+.lightgreen {
+  background: #dcf8f4;
+}
+
+.second-section {
+  padding-bottom: 6%;
+}
+.second-section p {
+  font-size: 16px;
+}
+.second-section .book1 h3 {
+  font-family: -webkit-body;
+}
+
+.third-section h2 {
+  padding-top: 6%;
+}
+.third-section p {
+  font-size: 16px;
+  width: 90%;
+}
+
+.fourth {
+  padding: 3% 0%;
+}
+
+.five-section {
+  padding: 7% 0% 0%;
+}
+.five-section h2 {
+  padding-top: 6%;
+}
+.five-section button {
+  background-color: #02bf9b;
+  padding: 2%;
+  font-size: 104%;
+  font-weight: 500;
+  color: white;
+  margin-top: 3%;
+}
+
+.six-section {
+  padding: 3% 0%;
+}
+.six-section h2 {
+  padding-top: 6%;
+}
+
+.seven-section {
+  background-color: #02a5e8;
+  padding: 5% 0%;
+}
+.seven-section .success {
+  font-size: 28px;
+  font-family: -webkit-body;
+}
+.seven-section .seven-second {
+  width: 65%;
+  padding-left: 10%;
+}
+.seven-section button {
+  background-color: white;
+  padding: 2%;
+  font-size: 104%;
+  font-weight: 500;
+  color: #02bf9b;
+  margin-top: 3%;
+}
+
+.eight-section {
+  padding: 6% 0%;
+}
+.eight-section h2 {
+  padding-top: 6%;
+}
+
+.nine-section {
+  background-image: url("./images/about_contact_us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+  height: 69vh;
+}
+.nine-section p {
+  font-size: 16px;
+}
+.nine-section button {
+  background-color: #02bf9b;
+  padding: 2%;
+  font-size: 104%;
+  font-weight: 500;
+  color: white;
+  margin-top: 3%;
+}
+.nine-section .contact {
+  width: 61%;
+  padding: 3%;
+  border-radius: 22px;
+  margin-left: 4%;
+}
+
+@media only screen and (max-width: 400px) {
+  .about-section {
+    background-size: cover;
+    padding-bottom: 0;
+  }
+  .about-section h1 {
+    font-family: system-ui;
+    color: white;
+    font-size: 25px;
+  }
+  .about-section p {
+    text-shadow: 1px black;
+    max-width: 800px;
+  }
+  .second-section p {
+    font-size: 16px;
+  }
+  .second-section .book1 {
+    display: none;
+  }
+  .second-section .book2 h2 {
+    font-size: 24px;
+  }
+  .third-section h2 {
+    font-size: 24px;
+  }
+  .third-section p {
+    font-size: 16px;
+  }
+  .fourth .fourth-rup {
+    font-size: 132%;
+    font-weight: bolder;
+  }
+  .fourth h5 {
+    font-size: 100%;
+  }
+  .seven-section .success {
+    display: none;
+  }
+  .seven-section .seven-second {
+    width: 93%;
+    padding-left: 0%;
+  }
+  .nine-section {
+    background-image: url("./images/about_contact_us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36vh;
+  }
+  .nine-section .contact {
+    width: 100%;
+    border-radius: 9px;
+    margin-left: 0%;
+  }
+  .nine-section .contact p {
+    font-size: 10px;
+  }
+  .nine-section .contact button {
+    background-color: #02bf9b;
+    padding: 2%;
+    font-size: 99%;
+    font-weight: 500;
+    color: white;
+    margin-top: -2%;
+    margin-bottom: 1%;
+  }
+}
+.hero-section-detail {
+  font-family: "Poppins", serif;
+}
+.hero-section-detail h1,
+.hero-section-detail h2,
+.hero-section-detail h3,
+.hero-section-detail h4,
+.hero-section-detail h5,
+.hero-section-detail h6 {
+  font-size: 20px;
+}
+.hero-section-detail p,
+.hero-section-detail ul {
+  font-size: 16px;
+}
+.hero-section-detail .overview {
+  font-size: 141%;
+  padding: 0% 8%;
+}
+.hero-section-detail .overview .overview1 .overview-icon i {
+  display: inline;
+}
+.hero-section-detail .overview .overview1 .overview-icon p {
+  display: inline !important;
+  padding: 0% 0% 0% 4%;
+}
+.hero-section-detail .overview .overview1 .detail-instructors,
+.hero-section-detail .overview .overview1 .detail-instructors1,
+.hero-section-detail .overview .overview1 .detail-instructors2,
+.hero-section-detail .overview .overview1 .detail-instructors3 {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-top: 0%;
+}
+.hero-section-detail .overview .star {
+  padding: 3%;
+}
+.hero-section-detail .overview .star p {
+  display: inline;
+}
+.hero-section-detail .overview .star .money {
+  padding-right: 14%;
+}
+.hero-section-detail .overview .star .food {
+  padding-right: 27.5%;
+}
+.hero-section-detail .overview .star .location {
+  padding-right: 23.2%;
+}
+.hero-section-detail .overview .star .quality {
+  padding-right: 12.2%;
+}
+.hero-section-detail .overview .star .overall {
+  padding-right: 10.7%;
+}
+.hero-section-detail .overview .icon {
+  font-size: 141%;
+  padding: 0% 6%;
+  color: #02bf9b;
+}
+.hero-section-detail .overview .icon1 {
+  font-size: 141%;
+  padding: 0% 11%;
+  color: #02bf9b;
+}
+.hero-section-detail .overview .retreat-icon {
+  width: 37%;
+}
+.hero-section-detail .overview .retreat-icon .icon2 {
+  font-size: 141%;
+  color: #02bf9b;
+  padding: 0% 3% 0% 10%;
+}
+.hero-section-detail .overview .unique-feature .Unique {
+  width: 35%;
+}
+.hero-section-detail .overview .unique-feature .Unique .icon-unique {
+  font-size: 141%;
+  color: #02bf9b;
+  padding: 0% 3% 0% 4%;
+}
+.hero-section-detail .overview .thing-icon {
+  width: 52%;
+}
+.hero-section-detail .overview .thing-icon .thing-icon1 {
+  font-size: 171%;
+  padding: 0% 2%;
+  color: #02bf9b;
+}
+.hero-section-detail .overview .spa-icon {
+  width: 35%;
+}
+.hero-section-detail .overview .spa-icon .spa-icon1 {
+  font-size: 141%;
+  padding: 0% 4%;
+  color: #02bf9b;
+}
+.hero-section-detail .overview .what-icon {
+  width: 36%;
+}
+.hero-section-detail .overview .what-icon .what-icon1 {
+  font-size: 141%;
+  padding: 0% 4%;
+  color: #02bf9b;
+}
+.hero-section-detail .overview .whats-icon {
+  width: 43%;
+}
+.hero-section-detail .overview .whats-icon .whats-icon1 {
+  font-size: 141%;
+  padding: 0% 3%;
+}
+.hero-section-detail .overview .how-icon {
+  width: 35%;
+}
+.hero-section-detail .overview .how-icon .how-icon1 {
+  font-size: 141%;
+  padding: 0% 3%;
+  color: #02bf9b;
+}
+.hero-section-detail .overview .cancel-icon {
+  width: 43%;
+}
+.hero-section-detail .overview .cancel-icon .cancel-icon1 {
+  font-size: 141%;
+  padding: 0% 2%;
+  color: #02bf9b;
+}
+.hero-section-detail .overview .overview2 .review .review1 {
+  display: inline;
+  padding: 0% 0% 0% 35%;
+  font-size: 93%;
+}
+.hero-section-detail .overview .overview2 .review .stars {
+  font-size: 80%;
+}
+.hero-section-detail .overview .overview2 .review .stars p {
+  display: inline !important;
+}
+.hero-section-detail .overview .select-package .package1 {
+  padding: 7% 8% 0%;
+}
+.hero-section-detail .overview .select-package .package-in {
+  margin: 6% 0% -21%;
+}
+.hero-section-detail p {
+  color: rgb(108, 117, 125) !important;
+}
+.hero-section-detail .detail-instructors {
+  background-image: url("./images/detail1..webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+}
+.hero-section-detail .detail-instructors1 {
+  background-image: url("./images/detail2..webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+}
+.hero-section-detail .detail-instructors2 {
+  background-image: url("./images/detail3..webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+}
+.hero-section-detail .detail-instructors3 {
+  background-image: url("./images/detail4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+}
+.hero-section-detail .package1:hover {
+  background: #dcf8f4;
+}
+.hero-section-detail .bggreen {
+  background-color: #02bf9b;
+}
+.hero-section-detail .review .lightblue {
+  font-size: 70%;
+}
+.hero-section-detail .review .stars p {
+  font-size: 13px;
+}
+.hero-section-detail .review .stars i {
+  font-size: 14px;
+}
+.hero-section-detail .similar-yoga .Similar .lightblue {
+  font-size: 44%;
+}
+.hero-section-detail .similar-yoga .similar1 {
+  background-image: url("./images/detail-side1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .similar-yoga .similar2 {
+  background-image: url("./images/detail-side2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .similar-yoga .similar3 {
+  background-image: url("./images/detail-side3.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .similar-yoga .similar4 {
+  background-image: url("./images/detail-side4.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .similar-yoga .similar5 {
+  background-image: url("./images/detail-side5.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .You-recently .recently .lightblue {
+  font-size: 44%;
+}
+.hero-section-detail .You-recently .recently1 {
+  background-image: url("./images/detail-side6.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .You-recently .recently2 {
+  background-image: url("./images/detail-side7.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .You-recently .recently3 {
+  background-image: url("./images/detail-side8.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .You-recently .recently4 {
+  background-image: url("./images/detail-side9.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .You-recently .recently5 {
+  background-image: url("./images/detail-side10.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  padding: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.hero-section-detail .You-might p:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 400px) {
+  .hero-section-detail .first-image {
+    padding: 0% 0% 7% 0%;
+  }
+  .hero-section-detail .hero-font {
+    font-size: 17px;
+  }
+  .hero-section-detail h2,
+  .hero-section-detail h3 {
+    font-size: 25px;
+  }
+  .hero-section-detail h1 {
+    font-size: 19px;
+  }
+  .hero-section-detail h4,
+  .hero-section-detail h5 {
+    font-size: 20px;
+  }
+  .hero-section-detail p,
+  .hero-section-detail ul {
+    font-size: 1rem;
+  }
+  .hero-section-detail .overview .overview1 .retreat-icon {
+    width: 70%;
+  }
+  .hero-section-detail .overview .overview1 .Unique {
+    width: 75%;
+  }
+  .hero-section-detail .overview .overview1 .whats-icon,
+  .hero-section-detail .overview .overview1 .how-icon,
+  .hero-section-detail .overview .overview1 .cancel-icon {
+    width: 81%;
+  }
+  .hero-section-detail .overview .overview1 .thing-icon {
+    width: 88%;
+  }
+  .hero-section-detail .overview .overview1 .spa-icon,
+  .hero-section-detail .overview .overview1 .what-icon {
+    width: 67%;
+  }
+  .hero-section-detail .overview .overview1 .Verified .icon {
+    display: none;
+  }
+  .hero-section-detail .overview .overview1 .star {
+    display: none;
+  }
+  .hero-section-detail .overview .overview1 .rneem,
+  .hero-section-detail .overview .overview1 .reviews,
+  .hero-section-detail .overview .overview1 .reviews1,
+  .hero-section-detail .overview .overview1 .Elisabeth {
+    display: none;
+  }
+  .hero-section-detail .overview .overview2 .review .review1 {
+    display: inline;
+    padding: 0% 0% 0% 35%;
+    font-size: 93%;
+  }
+  .hero-section-detail .overview .overview2 .review .stars p {
+    display: inline !important;
+  }
+  .hero-section-detail .overview .overview2 .review .stars .accommodation {
+    display: none !important;
+  }
+  .hero-section-detail .overview .overview2 .review .invented-commo {
+    display: none;
+  }
+  .hero-section-detail .overview .overview2 .select-package .package1 button {
+    display: none;
+  }
+}
+.bootstrap-datetimepicker-widget.bottom {
+  top: auto;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+  border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+  font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td:hover {
+  background: #02bf9b;
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+  border-bottom-color: #dcf8f4;
+}
+
+.travelers {
+  background-image: url(./images/topography-green.svg);
+  background-color: #edfbf9;
+}
+
+.still {
+  font-family: "Poppins", serif;
+  background-image: url(./images/topography-blue.svg);
+  background-color: #e5f6fc;
+}
+.still p {
+  font-size: 1.25rem;
+}
+.still .message {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.still .message i {
+  font-size: 514%;
+}
+
+@media only screen and (max-width: 400px) {
+  .still i {
+    display: none;
+  }
+  .still h1 {
+    font-size: 127%;
+  }
+  .still p {
+    font-size: 16px;
+  }
+  .Subscribe {
+    margin: 3% 0%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
