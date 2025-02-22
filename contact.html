@@ -116,17 +116,18 @@
     </nav>
 
     <!-- contact-hero-section -->
-    <section class="position-relative pb-5 contact-page1 bg-light">
-      <div class="row contact-page w-100 vh-100 bg-light"></div>
-      <div class="row w-100 bg-light" style="min-height: 100vh"></div>
+    <section class="position-relative contact-page1 bg-light">
+      <div class="row contact-page vh-100 bg-light"></div>
+      <div class="row contact-second bg-light" style="min-height: 100vh"></div>
+      <!-- desktop  -->
       <div
-        class="row align-items-center position-absolute ps-5 w-100"
+        class="row w-100 hero-contact align-items-center position-absolute ps-5"
         style="top: 8%"
       >
         <div class="col-md-8 ps-5">
-          <div class="bg-white p-3 rounded-4">
-            <div class="mb-3 container">
-              <h5 class="text-secondary"><b>Customer Care</b></h5>
+          <div class="bg-white rounded-4">
+            <div class="mb-2 container">
+              <h5 class="text-secondary p-2 ps-0"><b>Customer Care</b></h5>
               <h1>How can we help you?</h1>
               <p>
                 We<span>'</span>re passionate about travel. We see it as an
@@ -275,7 +276,7 @@
             </div>
             <button
               type="submit"
-              class="btn btn-success ms-4 px-5 py-2 bggreen border-0"
+              class="btn btn-success ms-4 mb-3 px-5 py-2 bggreen border-0"
             >
               Send Message
             </button>
@@ -290,11 +291,11 @@
 
             <div class="mb-3">
               Email
-              <p style="font-family: serif">service@BookYogaRetreats.com</p>
+              <p>service@BookYogaRetreats.com</p>
             </div>
             <div class="mb-3">
               Address
-              <p style="font-family: serif">
+              <p >
                 Singel 542, 1017 AZ Amsterdam, The Netherlands
               </p>
             </div>
@@ -318,9 +319,226 @@
           </div>
         </div>
       </div>
+      <!-- mobile view -->
+      <div
+        class="row contact-mobile align-items-center position-absolute ps-2 d-block d-md-none"
+        style="top: 3%"
+      >
+        <div class="container">
+          <div class="bg-white p-3 rounded-2">
+            <div class="customer mb-3">
+              <h6 class="text-secondary"><b>Customer Care</b></h6>
+              <h2>How can we help you?</h2>
+              <p class="text-secondary">
+                We’re passionate about travel. We see it as an everyday joy to
+                help others plan, discover, and book unforgettable travel
+                experiences. If you’d like to contact a BookYogaRetreats
+                organiser directly, then click on the ‘Send Inquiry’ button on
+                their specific listing page.
+              </p>
+            </div>
+            <div class="container green-background text-secondary">
+              <p class="p-2">
+                Our team will respond to you as quickly as possible, normally
+                within 1 business day.
+              </p>
+            </div>
+            <div class="container">
+              <div class="mb-3 row">
+                <label for="inputfirstname" class="col-sm-2 col-form-label"
+                  >First name</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputfirstname"
+                    placeholder="First name"
+                  />
+                </div>
+                <label for="inputlastname1" class="col-sm-2 col-form-label"
+                  >Last name</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputlastname1"
+                    placeholder="Last name"
+                  />
+                </div>
+                <label for="inputemail1" class="col-sm-2 col-form-label"
+                  >Email</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputemail1"
+                    placeholder="Email"
+                  />
+                </div>
+
+                <div class="my-3 container">
+                  <label for="formFile" class="form-label">Your situation</label
+                  ><br />
+                  <div
+                    class="form-check form-check-inline border w-100 rounded-2"
+                  >
+                    <input
+                      class="form-check-input mt-2"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio4"
+                      value="option4"
+                    />
+                    <label class="form-check-label p-2" for="inlineRadio4"
+                      >I am a customer</label
+                    >
+                  </div>
+                  <div
+                    class="form-check form-check-inline border w-100 rounded-2"
+                  >
+                    <input
+                      class="form-check-input mt-2"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio5"
+                      value="option5"
+                    />
+                    <label class="form-check-label p-2" for="inlineRadio5"
+                      >I am already a partner</label
+                    >
+                  </div>
+                  <div
+                    class="form-check form-check-inline border w-100 rounded-2"
+                  >
+                    <input
+                      class="form-check-input mt-2"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio6"
+                      value="option3"
+                    />
+                    <label class="form-check-label p-2" for="inlineRadio6"
+                      >I would like to be a partner</label
+                    >
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <label for="inputcontext">Context</label>
+                  <select
+                    class="form-select form-select-sm p-3 mt-2"
+                    aria-label="Small select example"
+                  >
+                    <option selected>Recommended</option>
+                    <option value="1">Popularity</option>
+                    <option value="2">Duration short to long</option>
+                    <option value="3">Price low to high</option>
+                    <option value="4">Price high to low</option>
+                    <option value="5">Price per day low to high</option>
+                    <option value="6">Price per day high to low</option>
+                    <option value="7">Review score</option>
+                  </select>
+                </div>
+                <div class="form-check my-4 text-secondary">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+                <div class="form-check text-secondary">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Checked checkbox
+                  </label>
+                </div>
+                <div class="my-3 container">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    ><b> Message</b></label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea2"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <div class="form-check my-3 text-secondary">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck4"
+                  />
+                  <label class="form-check-label" for="defaultCheck2">
+                    <p>
+                      Don't miss out! Join our mailing list to get inspiration,
+                      tips
+                      <span>&</span> special offers sent directly to your inbox.
+                    </p>
+                  </label>
+                </div>
+                <button
+                  type="submit"
+                  class="btn bggreen text-white py-2 bggreen border-0"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 ps-2 pb-2 d-block d-md-none">
+        <div class="bg-white p-3 rounded-2 mt-5">
+          <div class="mb-3">
+            <h2>Contact us</h2>
+          </div>
+
+          <div class="mb-3">
+            Email
+            <p class="text-secondary">service@BookYogaRetreats.com</p>
+          </div>
+          <div class="mb-3">
+            Address
+            <p class="text-secondary">
+              Singel 542, 1017 AZ Amsterdam, The Netherlands
+            </p>
+          </div>
+          <div class="mb-3 ">
+            Social
+            <div class="d-flex gap-3">
+              <div class="">
+                <i class="bi bi-facebook text-secondary fs-4"></i>
+              </div>
+              <div class="">
+                <i class="bi bi-youtube text-secondary fs-4"></i>
+              </div>
+              <div class="">
+                <i class="bi bi-instagram text-secondary fs-4"></i>
+              </div>
+              <div class="">
+                <i class="bi bi-music-note-beamed text-secondary fs-4"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
     <!-- bookyoga -->
-    <section class="bookyoga py-5  bg-body-tertiary">
+    <section class="bookyoga bg-body-tertiary">
       <div class="container">
         <h1 class="fs-3 text-center pt-5"><b>BookYogaRetreats.com</b></h1>
         <p class="text-center text-secondary">
@@ -388,9 +606,9 @@
     </section>
 
     <section class="contactabout">
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-4 col-md-4">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-4">
             <h4><b> About BookYogaRetreats</b></h4>
             <p class="mt-4 text-secondary">
               Our passion is to enrich people<span>s</span> lives. We believe
@@ -399,17 +617,11 @@
               possible for you to find, compare, and book yoga travel
               experiences easily.
             </p>
-            <a
-              href="./about.html"
-              class="text-decoration-none about-link green"
-              style="
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
-                  sans-serif;
-              "
+            <a href="./about.html" class="text-decoration-none about-link green   "
               ><b> More about BookYogaRetreats</b></a
             >
           </div>
-          <div class="col-4 col-md-4 offset-md-0">
+          <div class="col-md-4 offset-md-0 contact-col">
             <h4 class="">
               <b>Press inquiries <span>b</span> Partnership requests</b>
             </h4>
@@ -418,31 +630,19 @@
               contact details on our About BookYogaRetreats page. We can provide
               you with relevant industry numbers to support (research) articles.
             </p>
-            <a
-              href="./about.html"
-              class="text-decoration-none green"
-              style="
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
-                  sans-serif;
-              "
+            <a href="./about.html" class="text-decoration-none green"
               ><b> Press and parternship requests</b></a
             >
           </div>
-          <div class="col-4 col-md-4 offset-md-0">
+          <div class="col-md-4 offset-md-0 contact-col1">
             <h4><b>Legal information</b></h4>
-            <p class="mt-4 text-secondary pb-4">
+            <p class="mt-4 text-secondary ">
               BookYogaRetreats is registered with the trade register of the
               Chamber of Commerce in The Hague, the Netherlands, under
               registration number 61843962. VAT registration number is
               NL854513322B01.
             </p>
-            <a
-              href="./terms-privacy.html"
-              class="text-decoration-none green"
-              style="
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
-                  sans-serif;
-              "
+            <a href="./terms-privacy.html" class="text-decoration-none green"
               ><b> Terms and Privacy</b></a
             >
           </div>
@@ -450,9 +650,9 @@
       </div>
     </section>
 
-    <hr class="my-0" />
+    <hr class="m-0" />
     <!-- still -->
-    <section class="still mb-5 py-5">
+    <section class="still mb-5 py-5"> 
       <div class="container mades">
         <div class="row container">
           <div class="col-md-2 message">
@@ -464,17 +664,17 @@
               Get weekly inspiration delivered right to your inbox!
             </p>
           </div>
-          <div class="col-md-5 mt-4">
+          <div class="col-md-5">
             <p>Your email address</p>
             <div class="row">
               <div class="col-md-8">
                 <input
                   type="email"
                   placeholder="name@example.com"
-                  class="w-100 p-2"
+                  class="w-100 p-2 border rounded"
                 />
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 Subscribe">
                 <button type="button" class="btn btn-primary fs-5 sub">
                   Subscribe
                 </button>
